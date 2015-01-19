@@ -23,6 +23,9 @@ That's it. You're set!
 
 Usage
 ---
+Modified quite a few places from FahimF/SQLiteDB. Please see demo project, Not below text.
+
+
 * You can gain access to the shared database instance as follows:
 ```swift
 	let db = SQLiteDB.sharedInstance()
