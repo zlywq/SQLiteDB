@@ -7,31 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD18184219D56B5B0053E68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD18183519D56B5B0053E68E /* Main.storyboard */; };
-		DD18184319D56B5B0053E68E /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = DD18183719D56B5B0053E68E /* data.db */; };
+		086C646C1A6D26CE003785AA /* DASqlite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C646B1A6D26CE003785AA /* DASqlite.swift */; };
+		086C646E1A6D27CA003785AA /* init_localdb.sql in Resources */ = {isa = PBXBuildFile; fileRef = 086C646D1A6D27CA003785AA /* init_localdb.sql */; };
+		086C64701A6D290F003785AA /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086C646F1A6D290F003785AA /* Home.storyboard */; };
+		086C64721A6D2968003785AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086C64711A6D2968003785AA /* HomeViewController.swift */; };
 		DD18184419D56B5B0053E68E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD18183819D56B5B0053E68E /* Images.xcassets */; };
-		DD18184719D56B5B0053E68E /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18183C19D56B5B0053E68E /* AddCategoryViewController.swift */; };
-		DD18184819D56B5B0053E68E /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18183D19D56B5B0053E68E /* AddTaskViewController.swift */; };
 		DD18184919D56B5B0053E68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18183E19D56B5B0053E68E /* AppDelegate.swift */; };
-		DD18184A19D56B5B0053E68E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18184019D56B5B0053E68E /* CategoryViewController.swift */; };
-		DD18184B19D56B5B0053E68E /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18184119D56B5B0053E68E /* TasksViewController.swift */; };
-		DD18184E19D56BAF0053E68E /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18184C19D56BAF0053E68E /* SQLiteDB.swift */; };
 		DD18184F19D56BAF0053E68E /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18184D19D56BAF0053E68E /* String-Extras.swift */; };
 		DD18185119D56CDB0053E68E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD18185019D56CDB0053E68E /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD18183619D56B5B0053E68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD18183719D56B5B0053E68E /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+		086C646B1A6D26CE003785AA /* DASqlite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DASqlite.swift; path = ../../DASqlite.swift; sourceTree = "<group>"; };
+		086C646D1A6D27CA003785AA /* init_localdb.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init_localdb.sql; sourceTree = "<group>"; };
+		086C646F1A6D290F003785AA /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		086C64711A6D2968003785AA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DD18183819D56B5B0053E68E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD18183919D56B5B0053E68E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD18183C19D56B5B0053E68E /* AddCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
-		DD18183D19D56B5B0053E68E /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		DD18183E19D56B5B0053E68E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD18183F19D56B5B0053E68E /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		DD18184019D56B5B0053E68E /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
-		DD18184119D56B5B0053E68E /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
-		DD18184C19D56BAF0053E68E /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = ../../SQLiteDB.swift; sourceTree = "<group>"; };
 		DD18184D19D56BAF0053E68E /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../../String-Extras.swift"; sourceTree = "<group>"; };
 		DD18185019D56CDB0053E68E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DD228C9319486E0400B74370 /* SQLiteDB-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQLiteDB-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +54,10 @@
 		DD18183419D56B5B0053E68E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DD18183519D56B5B0053E68E /* Main.storyboard */,
-				DD18183719D56B5B0053E68E /* data.db */,
+				086C646D1A6D27CA003785AA /* init_localdb.sql */,
 				DD18183819D56B5B0053E68E /* Images.xcassets */,
 				DD18183919D56B5B0053E68E /* Info.plist */,
+				086C646F1A6D290F003785AA /* Home.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -71,12 +65,9 @@
 		DD18183B19D56B5B0053E68E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DD18183C19D56B5B0053E68E /* AddCategoryViewController.swift */,
-				DD18183D19D56B5B0053E68E /* AddTaskViewController.swift */,
 				DD18183E19D56B5B0053E68E /* AppDelegate.swift */,
 				DD18183F19D56B5B0053E68E /* Bridging-Header.h */,
-				DD18184019D56B5B0053E68E /* CategoryViewController.swift */,
-				DD18184119D56B5B0053E68E /* TasksViewController.swift */,
+				086C64711A6D2968003785AA /* HomeViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -111,7 +102,7 @@
 		DD61B8A91989AC0E00B5AAD2 /* SQLiteDB-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				DD18184C19D56BAF0053E68E /* SQLiteDB.swift */,
+				086C646B1A6D26CE003785AA /* DASqlite.swift */,
 				DD18184D19D56BAF0053E68E /* String-Extras.swift */,
 			);
 			name = "SQLiteDB-Swift";
@@ -182,8 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD18184419D56B5B0053E68E /* Images.xcassets in Resources */,
-				DD18184219D56B5B0053E68E /* Main.storyboard in Resources */,
-				DD18184319D56B5B0053E68E /* data.db in Resources */,
+				086C64701A6D290F003785AA /* Home.storyboard in Resources */,
+				086C646E1A6D27CA003785AA /* init_localdb.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,27 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD18184919D56B5B0053E68E /* AppDelegate.swift in Sources */,
-				DD18184B19D56B5B0053E68E /* TasksViewController.swift in Sources */,
-				DD18184719D56B5B0053E68E /* AddCategoryViewController.swift in Sources */,
-				DD18184E19D56BAF0053E68E /* SQLiteDB.swift in Sources */,
-				DD18184A19D56B5B0053E68E /* CategoryViewController.swift in Sources */,
+				086C646C1A6D26CE003785AA /* DASqlite.swift in Sources */,
 				DD18184F19D56BAF0053E68E /* String-Extras.swift in Sources */,
-				DD18184819D56B5B0053E68E /* AddTaskViewController.swift in Sources */,
+				086C64721A6D2968003785AA /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DD18183519D56B5B0053E68E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD18183619D56B5B0053E68E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD228CAF19486E0500B74370 /* Debug */ = {
